@@ -6,9 +6,19 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.bg-gif {
+  background-image: url('https://i.ibb.co/XFWxfYY/bg.png');
+  background-size: cover;
+  background-position: center center;
+}
+
 .dark-mode {
   background-color: rgb(15, 15, 16);
-  color: white;
+  color: rgb(0, 0, 0);
+}
+:not(.dark-mode) {
+  background-color: rgb(15, 15, 16);
+  color: rgb(0, 0, 0);
 }
 .button {
   background-color: blue;

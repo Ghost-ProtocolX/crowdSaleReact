@@ -43,12 +43,13 @@ const App = () => {
 
   return (
     <div>
+      <div className="bg-gif"></div>
       <div style={{ display: 'flex', justifyContent: 'flex-end', padding: 12 }}>
       <ConnectButton />
-        <button
+        {/* <button
         
           className="button"
-          onClick={toggleDarkMode}
+          // onClick={toggleDarkMode}
           style={{
             color: 'black',
             display: 'flex', 
@@ -63,12 +64,14 @@ const App = () => {
           }}
         >
           Toggle Dark/Light
-        </button>
+        </button> */}
       </div>
       <div style={{ display: 'flex', justifyContent: 'center', marginTop: '10%'  }}>
         <Card />
       </div>
+      
     </div>
+    
   );
 };
 
